@@ -1,0 +1,100 @@
+.car {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 9;
+    justify-content: center;
+
+}
+
+
+/*Basic HMI containers*/
+.hmi_cnt {
+    display: flex;
+    flex-grow: 20;
+    justify-content: center;
+}
+.hmi {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+    background-color: darkslategrey;
+    border: 3px white solid;
+    height: 95%;
+    width: 70%;
+}
+.hmi_item {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+
+/*For the list of HMI options on the car*/
+#driver_opt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn_hmi {
+    flex-grow: 1;
+    height: 100%;
+    margin: 0 .5em;
+    font-size: 1.25em;
+}
+
+
+/*Row of state of the system*/
+#info {
+    display: flex;
+    flex-direction: row;
+}
+.hmi_info {
+    flex-grow: 1;
+}
+
+
+/*Camera css*/
+#cr1, #cr2 {
+    display: flex;
+    flex-grow: 4;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 7em;
+    padding-left: 7em;
+}
+#cr2 {
+    margin-bottom: 1em;
+}
+.camera {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-grow: 1;
+    font-weight: bold;
+    background-color: black;
+    border: silver 2px solid;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: black;
+    font-size: .75em;
+}
+
+/*Brakes and gear shifts*/
+.drive_cnt {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: slategray;
+    justify-content: center;
+}
+.btn_d {
+    flex-grow: 1;
+    height: 70%;
+    width: 70%;
+    margin: .5em;
+    font-size: 4em;
+}

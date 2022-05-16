@@ -1,0 +1,7 @@
+.interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 6;
+    background-color: bisque;
+}

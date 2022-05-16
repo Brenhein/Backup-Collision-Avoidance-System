@@ -1,0 +1,40 @@
+/*The road where the car drives*/
+.road {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/road.jpg");
+    flex-grow: 2;
+    border-left: solid black 4px;
+    padding-right: 90px;
+}
+
+/*The container that holds either the car or the person*/
+.road_cnt {
+    display: flex;
+    flex-grow: 1;
+}
+#rcb {
+    align-items: flex-end;
+}
+
+/*the class for the top of the car*/
+.car_top{
+    position: absolute;
+    background-image: url("../img/car.png");
+    background-repeat: no-repeat;
+    width: 95px;
+    height: 171px;
+}
+
+/*The obstacle that the car can potentially hit*/
+.person {
+    position: absolute;
+    background-image: url("../img/man.png");
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 94px;
+    margin-bottom: 100px;
+    visibility: hidden;
+}
